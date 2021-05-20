@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.094">
+    <testcase classname="Application Login" name="Home page default login" time="0.037">
+        <system-out>
+            <![CDATA[Given User is on the NetBanking landing page................................passed
+When User login to the app with "User" and password "1234"..................passed
+Then Home page displayed "true".............................................passed
+And Cards displayed "true"..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login multiple inputs" time="0.001">
+        <system-out>
+            <![CDATA[Given User is on the NetBanking landing page................................passed
+When User login to the app with mark and 1234...............................passed
+Then Home page displayed "true".............................................passed
+And Cards displayed "true"..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login multiple inputs 2" time="0.022">
+        <system-out>
+            <![CDATA[Given User is on the NetBanking landing page................................passed
+When User login to the app with carl and 123................................passed
+Then Home page displayed "true".............................................passed
+And Cards displayed "true"..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login multiple inputs 3" time="0.001">
+        <system-out>
+            <![CDATA[Given User is on the NetBanking landing page................................passed
+When User login to the app with emma and 4321...............................passed
+Then Home page displayed "true".............................................passed
+And Cards displayed "true"..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login multiple inputs 4" time="0.001">
+        <system-out>
+            <![CDATA[Given User is on the NetBanking landing page................................passed
+When User login to the app with lina and 5895...............................passed
+Then Home page displayed "true".............................................passed
+And Cards displayed "true"..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
